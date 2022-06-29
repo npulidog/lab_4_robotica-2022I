@@ -28,17 +28,14 @@ Este repositorio presenta el desarrollo de la practica 4 del laboratorio de Rob�
 Se realiza el diseño de la herramienta que permita fijar un marcador borrable del robot. Para este diseño te tuvo en cuenta unas ranuras que permiten insertar un resorte para de esa forma el movimiento del marcador sea continuo, se muestra el diseño en CAD y se procede a construirlo por medio de impresión 3D como se puede ver en la figura.
 
 <p align="center">
-  <img src="Fig/herramienta1.jpeg"/>
-</p>
-
-<p align="center">
-  <img src="Fig/herramienta2.jpeg"/>
+  <img width="300" src="Fig/herramienta1.jpeg"/>
+  <img width="300" src="Fig/herramienta2.jpeg"/>
 </p>
 
 Se hace el montaje del marcador en la herramienta para visualización y verificación.
 
 <p align="center">
-  <img src="Fig/herramienta3.jpeg"/>
+  <img width="300" src="Fig/herramienta3.jpeg"/>
 </p>
 
 Luego de esto, se hace la importación del modelo CAD de la herramienta a RobotStudio y de esa forma empezar a plantear la rutina del robot.
@@ -46,10 +43,10 @@ Luego de esto, se hace la importación del modelo CAD de la herramienta a RobotS
 
 ### Rutina del robot
 
-
+Con la herramienta importada a RobotStudio se procede a crear un Workobject
 
 <p align="center">
-  <img src="Fig/robotstudio.jpeg"/>
+  <img width="500" src="Fig/robotstudio.jpeg"/>
 </p>
 
 
