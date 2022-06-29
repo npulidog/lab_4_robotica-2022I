@@ -23,3 +23,36 @@ Este repositorio presenta el desarrollo de la practica 4 del laboratorio de Rob�
 
 ## Metodología
 
+### Rutina del robot
+
+
+
+<p align="center">
+  <img src="Fig/robotstudio.jpeg"/>
+</p>
+
+### Herramienta
+
+<p align="center">
+  <img src="Fig/herramienta1.jpeg"/>
+</p>
+
+<p align="center">
+  <img src="Fig/herramienta2.jpeg"/>
+</p>
+
+<p align="center">
+  <img src="Fig/herramienta3.jpeg"/>
+</p>
+
+### Calibración de la herramienta
+
+### Workobjects
+
+## Videos
+
+## Conclusiones
+
+
+
+
