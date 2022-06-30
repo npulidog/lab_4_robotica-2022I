@@ -95,10 +95,17 @@ Estos movimientos se pueden ver en el main path desarrollado y en el path denomi
   <img width="200" src="Fig/Path_10.jpeg"/>
 </p>
 
-
+Es importante explicar que para mover el TCP de un objetivo a otro, es necesario configurar la zona. Este es un parámetro que permite determinar qué tan cerca va a estar el TCP del objetivo para considerar que ya alcanzó la posición deseada. En este caso, ese parámetro se estableció en "z5" permitiendo un valor de toletancia entre el TCP y el objetivo propuesto. Otro parámetro que se tuvo en cuenta fue la velocidad del movimiento que se configuró entre v100 y v200, es decir, entre 100 mm/s y 200 mm/s.
 
 
 ### Calibración de la herramienta
+Una vez hecho el proceso en RobotStudio, se empieza a utilizar el manipulador real, por lo que se empieza la calibración de la herramienta y se procede a montarla en el manipulador y se comprueba que encaja correctamente.
+
+<p align="center">
+  <img width="400" src="Fig/calibracion.jpeg"/>
+</p>
+
+
 
 
 ## Videos
