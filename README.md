@@ -120,9 +120,9 @@ En los siguientes video se muestra de forma practica lo realizado en el laborato
 [Robótica: Robótica Industrial - Plano 30°](https://youtu.be/EnwLRaUWxdI "Robótica: Robótica Industrial - Plano 30°")
 
 ## Conclusiones
-Configurar todos los componentes para crear la ruta para el TCP fue una tarea realmente fácil. Después de saber cómo funciona el software, fue fácil comprobarlo e intentarlo de nuevo si era necesario con la ayuda de simulaciones. Sin embargo, la vida real tiende a ser bastante diferente. Es muy importante tener en cuenta todos los obstáculos que pueden aparecer en el camino a la hora de comprobar el comportamiento en un entorno real. Este tipo de cosas ocurren no solo en un espacio académico sino también en la industria.
 
-El resorte de la herramienta jugó un papel fundamental en el laboratorio debido a la irregularidad del tablero, podría verse como algo trivial en el mundo académico usando un marcador, pero en una aplicación industrial del mundo real, el resorte o un sistema equivalente podría ser fundamental para el correcto comportamiento de la herramienta.
-
+- Configurar los targets, paths y workobjects en RobotStudio resulta una tarea mucho mas facil y practica de realizar este tipo de rutinas que utilizando otros tipos de software o programas.
+- Es importante tener en cuenta las limitaciones fisicas y obstaculos que puedan aparecer al momento en el que el manipulador se encuentre operando.
+- El resorte de la herramienta fue muy importante debido a la irregularidad del tablero.
 
 
