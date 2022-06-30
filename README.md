@@ -25,7 +25,13 @@ Este repositorio presenta el desarrollo de la practica 4 del laboratorio de Rob�
 
 ### Herramienta
 
-Se realiza el diseño de la herramienta que permita fijar un marcador borrable del robot. Para este diseño te tuvo en cuenta unas ranuras que permiten insertar un resorte para de esa forma el movimiento del marcador sea continuo, se muestra el diseño en CAD y se procede a construirlo por medio de impresión 3D como se puede ver en la figura.
+Se realiza el diseño de la herramienta que permita fijar un marcador borrable del robot. Lo primero a tener en cuenta para diseñar correctamente la herramienta es la documentación del robot. La herramienta debe tener un método de fijación específico, en el caso del ABB-IRB140 la documentación como se muestra a continuación, aclara que se deben utilizar cuatro tornillos M6.
+
+<p align="center">
+  <img width="600" src="Fig/IRB140 herramienta.png"/>
+</p>
+
+Para este diseño te tuvo en cuenta unas ranuras que permiten insertar un resorte para de esa forma el movimiento del marcador sea continuo, se muestra el diseño en CAD y se procede a construirlo por medio de impresión 3D como se puede ver en la figura.
 
 <p align="center">
   <img width="300" src="Fig/herramienta1.jpeg"/>
@@ -102,11 +108,8 @@ Es importante explicar que para mover el TCP de un objetivo a otro, es necesario
 Una vez hecho el proceso en RobotStudio, se empieza a utilizar el manipulador real, por lo que se empieza la calibración de la herramienta y se procede a montarla en el manipulador y se comprueba que encaja correctamente.
 
 <p align="center">
-  <img width="400" src="Fig/calibracion.jpeg"/>
+  <img width="600" src="Fig/calibracion robot.jpeg"/>
 </p>
-
-
-
 
 ## Videos
 
