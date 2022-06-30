@@ -80,7 +80,7 @@ De la misma forma se muestran los Targets hechos en RobotStudio que conforman la
 Esos nombres se pueden encontrar en la declaración de variables en el código fuente. Aquí puede ver cómo todos esos objetivos pertenecen al Workobject llamado "Rotada_30G".
 
 <p align="center">
-  <img width="200" src="Fig/Target inclinado.jpeg"/>
+  <img width="200" src="Fig/Targetinclinado.jpeg"/>
 </p>
 
 
@@ -112,6 +112,12 @@ Una vez hecho el proceso en RobotStudio, se empieza a utilizar el manipulador re
 </p>
 
 ## Videos
+
+En los siguientes video se muestra de forma practica lo realizado en el laboratorio.
+
+[Robótica: Robótica Industrial - Plano 0°](https://youtu.be/U6LlIsTZd8E "Robótica: Robótica Industrial - Plano 0°")
+
+[Robótica: Robótica Industrial - Plano 30°](https://youtu.be/EnwLRaUWxdI "Robótica: Robótica Industrial - Plano 30°")
 
 ## Conclusiones
 Configurar todos los componentes para crear la ruta para el TCP fue una tarea realmente fácil. Después de saber cómo funciona el software, fue fácil comprobarlo e intentarlo de nuevo si era necesario con la ayuda de simulaciones. Sin embargo, la vida real tiende a ser bastante diferente. Es muy importante tener en cuenta todos los obstáculos que pueden aparecer en el camino a la hora de comprobar el comportamiento en un entorno real. Este tipo de cosas ocurren no solo en un espacio académico sino también en la industria.
