@@ -43,10 +43,42 @@ Luego de esto, se hace la importación del modelo CAD de la herramienta a RobotS
 
 ### Rutina del robot
 
-Con la herramienta importada a RobotStudio se procede a crear un Workobject
+#### Creación de Workobjects
+
+Con la herramienta importada a RobotStudio se procede a crear un Workobject, con el fin de trabajar desde alguna orientación o posición de plano diferene, donde se define un sistema de coordenadas diferente. Para este caso el Workobject se define desde una superficie rectangular.
 
 <p align="center">
   <img width="500" src="Fig/robotstudio.jpeg"/>
+</p>
+
+#### Creación de Targets
+
+Los Targets son puntos con una determinada posición y orientación que llegarán al robot con su TCP. En este caso esos objetivos se definirán en el Workobject creado. Esos objetivos tendrán una posición en x e y del sistema de coordenadas del Workobject. La siguiente imagen muestra todos los targets hechos en RobotStudio que conforman las letras iniciales de los integrantes del grupo.
+
+<p align="center">
+  <img width="400" src="Fig/DGN plano.jpeg"/>
+</p>
+
+Esos nombres se pueden encontrar en la declaración de variables en el código fuente. Aquí puede ver cómo todos esos objetivos pertenecen al Workobject llamado "wobj0".
+
+<p align="center">
+  <img width="200" src="Fig/Target plano.jpeg"/>
+</p>
+
+##### Creación de Paths
+
+Los Paths permiten indicar la forma en que se desea que el TCP vaya de un destino a otro. En este caso, se trabajó desde el main path para desarrollar las letras D, G y N.
+
+En este laboratorio se trabajaron tres movimientos principales:
+
+- **MoveJ**: Movimiento entre Targets usando movimientos libres de las articulaciones.
+- **MoveL**: Movimiento entre Targets siguiendo una linea recta
+- **MoveC**: Movimiento entre Targets siguiendo un arco o trayectoria curva.
+
+Estos movimientos se pueden ver en el main path desarrollado:
+
+<p align="center">
+  <img width="200" src="Fig/Main path.jpeg"/>
 </p>
 
 
