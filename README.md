@@ -65,6 +65,19 @@ Esos nombres se pueden encontrar en la declaración de variables en el código f
   <img width="200" src="Fig/Target plano.jpeg"/>
 </p>
 
+De la misma forma se muestran los Targets hechos en RobotStudio que conforman las letras iniciales, ahora en un plano de 30°
+
+<p align="center">
+  <img width="400" src="Fig/DGN inclinado.jpeg"/>
+</p>
+
+Esos nombres se pueden encontrar en la declaración de variables en el código fuente. Aquí puede ver cómo todos esos objetivos pertenecen al Workobject llamado "Rotada_30G".
+
+<p align="center">
+  <img width="200" src="Fig/Target inclinado.jpeg"/>
+</p>
+
+
 ##### Creación de Paths
 
 Los Paths permiten indicar la forma en que se desea que el TCP vaya de un destino a otro. En este caso, se trabajó desde el main path para desarrollar las letras D, G y N.
@@ -75,21 +88,25 @@ En este laboratorio se trabajaron tres movimientos principales:
 - **MoveL**: Movimiento entre Targets siguiendo una linea recta
 - **MoveC**: Movimiento entre Targets siguiendo un arco o trayectoria curva.
 
-Estos movimientos se pueden ver en el main path desarrollado:
+Estos movimientos se pueden ver en el main path desarrollado y en el path denominado "Path_10":
 
 <p align="center">
   <img width="200" src="Fig/Main path.jpeg"/>
+  <img width="200" src="Fig/Path_10.jpeg"/>
 </p>
+
+
 
 
 ### Calibración de la herramienta
 
-### Workobjects
 
 ## Videos
 
 ## Conclusiones
+Configurar todos los componentes para crear la ruta para el TCP fue una tarea realmente fácil. Después de saber cómo funciona el software, fue fácil comprobarlo e intentarlo de nuevo si era necesario con la ayuda de simulaciones. Sin embargo, la vida real tiende a ser bastante diferente. Es muy importante tener en cuenta todos los obstáculos que pueden aparecer en el camino a la hora de comprobar el comportamiento en un entorno real. Este tipo de cosas ocurren no solo en un espacio académico sino también en la industria.
 
+El resorte de la herramienta jugó un papel fundamental en el laboratorio debido a la irregularidad del tablero, podría verse como algo trivial en el mundo académico usando un marcador, pero en una aplicación industrial del mundo real, el resorte o un sistema equivalente podría ser fundamental para el correcto comportamiento de la herramienta.
 
 
 
